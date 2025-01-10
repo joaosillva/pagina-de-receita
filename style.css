@@ -26,6 +26,18 @@ img {
   border-radius: 16px;
 }
 
+main {
+  padding: 24px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
 h1 {
   font-size: 40px;
   line-height: 140%;
@@ -33,4 +45,14 @@ h1 {
 
 h2 {
   font-size: 24px;
+}
+
+h1, h2 {
+  color: #291B1A;
+  line-height: 150%;
+  margin-bottom: 4px;
+}
+
+ul {
+  padding-left: 24px;
 }
