@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body * {
+  color: #573A37;
+  font-family: "Alice", sans-serif;
+  line-height: 150%;
+}
+
 body {
   background: url(./assets/bg-page.svg) no-repeat top/cover;
 }
@@ -18,4 +24,13 @@ body {
 
 img {
   border-radius: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 140%;
+}
+
+h2 {
+  font-size: 24px;
 }
