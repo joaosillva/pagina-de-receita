@@ -1,3 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./assets/bg-page.svg) no-repeat top/cover;
+}
+
+#page {
+  width: 800px;
+  padding: 24px;
+  margin: 48px auto 28px;
+  background: #F0E8C2;
+  border-radius: 24px;
+}
+
 img {
   border-radius: 16px;
 }
